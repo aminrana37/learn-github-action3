@@ -6,7 +6,7 @@ jobs:
     runs-on: self-hosted
     steps:
       - run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
-      - run: eho "This is now running on ${{ runner.os }} server hosted by GitHub!"
+      - run: echo "This is now running on ${{ runner.os }} server hosted by GitHub!"
 
 
 
